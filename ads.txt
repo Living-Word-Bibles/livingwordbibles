@@ -1,6 +1,1 @@
-server {
-    location ~ /ads.txt {
-        return 301 https://srv.adstxtmanager.com/19390/https://www.livingwordbibles.com;
-curl -L https://srv.adstxtmanager.com/19390/https://www.livingwordbibles.com > ads.txt
-    }
-}
+Redirect 301 /ads.txt https://srv.adstxtmanager.com/19390/www.livingwordbibles.com
