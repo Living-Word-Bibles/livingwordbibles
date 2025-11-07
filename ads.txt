@@ -1,1 +1,5 @@
-google.com, pub-5303063222439969, DIRECT, f08c47fec0942fa0
+server {
+    location ~ /ads.txt {
+        return 301 https://srv.adstxtmanager.com/19390/https://www.livingwordbibles.com.com;
+    }
+}
